@@ -1,0 +1,10 @@
+first create app.js, server.js
+then run command npm i express
+then run  npm install -g sequelize-cli
+then run sequelize init
+npm install --save mysql2
+npm install --save body-parser
+
+
+to create table in db
+sequelize model:generate --name Comment --attributes content:text,postId:integer,userId:integer
